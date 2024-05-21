@@ -44,5 +44,5 @@ RUN echo "export ROS_DISTRO=${ROS_DISTRO}" >> ~/.zshrc
 RUN echo "export ROS_WORKSPACE=~/ws" >> ~/.zshrc
 RUN echo "export ROS_PACKAGE_PATH=~/ws/src:\$ROS_PACKAGE_PATH" >> ~/.zshrc
 RUN echo "export ROSCONSOLE_FORMAT='[\${severity}] [\${time}] [\${node}]: \${message}'" >> ~/.zshrc
-ENV SHELL /bin/zsh
-CMD ["/bin/zsh"]
+# ENV SHELL /bin/zsh
+# CMD ["/bin/zsh"]

@@ -46,5 +46,5 @@ RUN echo "export ROS_WORKSPACE=~/ws" >> ~/.zshrc
 RUN echo "export _colcon_cd_root=\$ROS_WORKSPACE" >> ~/.zshrc
 RUN echo 'eval "$(register-python-argcomplete3 ros2)"' >> ~/.zshrc
 RUN echo 'eval "$(register-python-argcomplete3 colcon)"' >> ~/.zshrc
-ENV SHELL /bin/zsh
-CMD ["/bin/zsh"]
+# ENV SHELL /bin/zsh
+# CMD ["/bin/zsh"]
