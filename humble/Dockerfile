@@ -29,7 +29,7 @@ RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
 RUN echo "source ~/ws/install/local_setup.bash" >> ~/.bashrc
 RUN echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
 RUN echo "source /usr/share/colcon_cd/function/colcon_cd.sh" >> ~/.bashrc
-RUN echo "export ROS_DISTRO=${ROS_DISTRO}" >> ~/.bashr
+RUN echo "export ROS_DISTRO=${ROS_DISTRO}" >> ~/.bashrc
 RUN echo "export ROS_WORKSPACE=~/ws" >> ~/.bashrc
 RUN echo "export _colcon_cd_root=\$ROS_WORKSPACE" >> ~/.bashrc
 ENV SHELL /bin/bash
