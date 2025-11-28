@@ -1,4 +1,5 @@
-FROM nvidia/cuda:11.6.1-devel-ubuntu20.04
+# FROM nvidia/cuda:11.6.1-devel-ubuntu20.04
+FROM nvidia/cuda:12.4.0-devel-ubuntu20.04
 ARG ROS_DISTRO=noetic
 ARG USERNAME=user
 ARG USER_UID=1000
